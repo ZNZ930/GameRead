@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.znz.gametool">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.LiftMapActivity"></activity>
+        <activity android:name=".MainActivity" ></activity>
+        <!--雪原庇护城-->
+        <activity android:name=".Activity.XueYuan.BaiShuGaoDi" ></activity>
+        <activity android:name=".Activity.XueYuan.DuoBeiXueShan" ></activity>
+        <activity android:name=".Activity.XueYuan.JiDiBingYuan" ></activity>
+        <activity android:name=".Activity.XueYuan.ShengDanCun" ></activity>
+        <activity android:name=".Activity.XueYuan.WeiNaXueChang" ></activity>
+        <activity android:name=".Activity.XueYuan.WuCiKuangChang" ></activity>
+        <activity android:name=".Activity.XueYuan.XingHeXiaGu" ></activity>
+        <!--黄沙庇护城-->
+        <activity android:name=".Activity.HuangSha.ShaShiBao" ></activity>
+        <activity android:name=".Activity.HuangSha.CanYuanGeBi" ></activity>
+        <activity android:name=".Activity.HuangSha.HuangTuKuangYe" ></activity>
+        <activity android:name=".Activity.HuangSha.ChenJiPingYuan" ></activity>
+        <!--风暴庇护城-->
+        <activity android:name=".Activity.FengBao.LaiXinGang" ></activity>
+        <activity android:name=".Activity.FengBao.LaoLunSiWan" ></activity>
+        <activity android:name=".Activity.FengBao.MiSiKaZhen" ></activity>
+        <activity android:name=".Activity.FengBao.ShengPaTuoNi" ></activity>
+        <!--荒沼庇护城-->
+        <activity android:name=".Activity.HuangZhao.DaHeQu" ></activity>
+        <activity android:name=".Activity.HuangZhao.MaoSiZhaoZe" ></activity>
+        <activity android:name=".Activity.HuangZhao.MaoSiXiaoZhen" ></activity>
+        <activity android:name=".Activity.HuangZhao.ZhaoZeBianJing" ></activity>
+        <!--旷野庇护城-->
+        <activity android:name=".Activity.KuangYe.GuiYingShan" ></activity>
+        <activity android:name=".Activity.KuangYe.HongShanZhen" ></activity>
+        <activity android:name=".Activity.KuangYe.HongShuiHu" ></activity>
+        <activity android:name=".Activity.KuangYe.HuiXiongShan" ></activity>
+        <!--炽热庇护城-->
+        <activity android:name=".Activity.CHiRe.LaiWenShi" ></activity>
+        <activity android:name=".Activity.CHiRe.LaiWenShiLiMingQu" ></activity>
+        <activity android:name=".Activity.CHiRe.ShengLuoNaShi" ></activity>
+        <!--夏尔庇护城-->
+        <activity android:name=".Activity.XiaEr.HeiZhenZhuQu" ></activity>
+        <activity android:name=".Activity.XiaEr.ShouLangYe" ></activity>
+        <activity android:name=".Activity.XiaEr.ShuangLuShi" ></activity>
+        <activity android:name=".Activity.XiaEr.YaShuCaoTan" ></activity>
+        <activity android:name=".Activity.XiaEr.YaShuQiuLing" ></activity>
+        <!--101商会-->
+        <activity android:name=".Activity.OZOShangHui.QingKongMaiTIan" ></activity>
+        <activity android:name=".Activity.OZOShangHui.QiuRiSenLin" ></activity>
+        <activity android:name=".Activity.OZOShangHui.XiaYuGongLu"></activity>
+        <activity android:name=".Activity.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="地图资源"
+            android:gravity="center"
+            android:background="#6D5B5B5F"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+    <include layout="@layout/three_ziyuan"/>
+        <TextView
+            android:text="@string/znz_qy"
+            android:gravity="center"
+            android:background="#6D5B5B5F"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

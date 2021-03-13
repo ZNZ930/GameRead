@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <declare-styleable name="CustomViewTest">
+        <attr name="znz_dp" format="string"/>
+        <attr name="znz_img" format="reference"/>
+    </declare-styleable>
+    <declare-styleable name="DrwaCenterTextView">
+        <attr name="gradientColor" format="boolean"></attr>
+    </declare-styleable>
+    <declare-styleable name="HeadLineView">
+        <attr name="line_dp" format="dimension"></attr>
+        <attr name="text" format="string"></attr>
+    </declare-styleable>
+</resources>
